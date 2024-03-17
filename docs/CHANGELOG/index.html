@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-CHANGELOG" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.1">
+<title data-rh="true">Changelog | F3D</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://f3d.app/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://f3d.app/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://f3d.app/docs/CHANGELOG"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Changelog | F3D"><meta data-rh="true" name="description" content="Ongoing development"><meta data-rh="true" property="og:description" content="Ongoing development"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://f3d.app/docs/CHANGELOG"><link data-rh="true" rel="alternate" href="https://f3d.app/docs/CHANGELOG" hreflang="en"><link data-rh="true" rel="alternate" href="https://f3d.app/docs/CHANGELOG" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.bf2e0311.css">
+<script src="/assets/js/runtime~main.d7bf5d96.js" defer="defer"></script>
+<script src="/assets/js/main.35912a6c.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="F3D logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="F3D logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">F3D</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/HOME">Docs</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/f3d-app/f3d" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/HOME">Home</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/GALLERY">Gallery</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/user-documentation">User Documentation</a><button aria-label="Expand sidebar category &#x27;User Documentation&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/libf3d-documentation">libf3d Documentation</a><button aria-label="Expand sidebar category &#x27;libf3d Documentation&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/developer-documentation">Developer Documentation</a><button aria-label="Expand sidebar category &#x27;Developer Documentation&#x27;" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/docs/CHANGELOG">Changelog</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/THIRD_PARTY_LICENSES">Third Party Copyrights and License within F3D application source</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Changelog</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>Changelog</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ongoing-development">Ongoing development<a href="#ongoing-development" class="hash-link" aria-label="Direct link to Ongoing development" title="Direct link to Ongoing development">​</a></h2>
+<p>For F3D users:</p>
+<ul>
+<li>Added a new option <code>--point-type</code> used to specify how to display points</li>
+<li>Add support for 3D Gaussians Splatting in binary .splat format</li>
+</ul>
+<p>For libf3d users:</p>
+<ul>
+<li>Added a new option <code>render.splat-type</code> used to specify how to display points (only if <code>model.point-sprites.enable</code> is true)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v230">v2.3.0<a href="#v230" class="hash-link" aria-label="Direct link to v2.3.0" title="Direct link to v2.3.0">​</a></h2>
+<p>For F3D users:</p>
+<ul>
+<li>Added <code>--animation-autoplay</code> option (libf3d: <code>scene.animation.autoplay</code>) to automatically start animation on file load</li>
+<li>Added an experimental <code>vdb</code> plugin in order to read .vdb files using OpenVDB</li>
+<li>Added an <code>usd</code> plugin in order to read .usd files using OpenUSD</li>
+<li>Added .3mf and .x files support in the <code>assimp</code> plugin</li>
+<li>Added a small margin between the model and the grid to avoid potential z-fighting</li>
+<li>Added VTK output to the log when using <code>--verbose=debug</code> for easier debug</li>
+<li>Reworked the <code>alembic</code> plugin to read Texture Coordinates and Normals for .abc files</li>
+<li>Improved the reading of EXR files using multi-threading for better performance when loading HDRIs</li>
+<li>Improved the documentation on <a href="https://f3d.app" target="_blank" rel="noopener noreferrer">https://f3d.app</a></li>
+<li>Improved general logging in order to make it easier to understand issues with file and options</li>
+<li>Fixed potential crashes when reading <code>assimp</code> plugin file formats</li>
+<li>Fixed <code>--grid-absolute</code> for off-center models</li>
+<li>Fixed an issue with thumbnail generation showing the log window</li>
+<li>Fixed many interaction issues on non-Qwerty keyboard layout</li>
+<li>Fixed handling of filenames containing commas</li>
+<li>Fixed an issue on Windows where the log window would appear on top of F3D window</li>
+<li>Fixed crashes with specific .obj file</li>
+<li>Fixed an issue with incorrect return code when using headless mode or incorrect options</li>
+<li>Fixed dependency issue with the headless .deb binary release</li>
+<li>Fixed a crash when using a file with more than 254 bones (Requires OpenGL 4.3)</li>
+<li>Fixed an issue with Unicode filenames on the title bar on Windows</li>
+<li>Fixed an issue where focal point picking would generate error messages</li>
+<li>Changed <code>--verbose</code> into a string based option, eg: <code>--verbose=quiet</code> or <code>--verbose=debug</code>. <code>--verbose</code> is still supported.</li>
+<li>Changed <code>--no-render</code> behavior so that it doesn&#x27;t impact verbosity anymore</li>
+<li>Changed the default configuration file so that translucency support is enabled by default</li>
+<li>Deprecated <code>--quiet</code>, use <code>--verbose=quiet</code> instead</li>
+<li>Deprecated <code>--input</code>, use positional argument instead</li>
+</ul>
+<p>For libf3d users:</p>
+<ul>
+<li>Added <code>scene.animation.autoplay</code> option</li>
+<li>Added a <code>f3d::image::saveBuffer</code> API to save an image as a file format in memory</li>
+<li>Fixed the default name of the window</li>
+</ul>
+<p>For F3D packagers:</p>
+<ul>
+<li>Added a new optional dependency, OpenUSD. Enable with <code>F3D_PLUGIN_BUILD_USD</code> CMake option</li>
+<li>Added a new optional dependency through VTK, OpenVDB. Enable with <code>F3D_PLUGIN_BUILD_VDB</code> CMake option</li>
+<li>Added a new CMake option to control the link against libatomic. Control with <code>F3D_LINUX_LIBRARY_LINK_ATOMIC</code></li>
+<li>Added two new packages to the list, OpenMandriva and Mageia</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v221">v2.2.1<a href="#v221" class="hash-link" aria-label="Direct link to v2.2.1" title="Direct link to v2.2.1">​</a></h2>
+<p>For F3D users:</p>
+<ul>
+<li>Added a native Apple Silicon release package</li>
+<li>Added new options <code>hdri-file</code>, <code>hdri-ambient</code>, <code>hdri-skybox</code> to have more control on the HDRI behavior</li>
+<li>Added a default HDRI used when providing no <code>hdri-file</code></li>
+<li>Added bindings to toggle HDRI ambient lighting (<code>F</code>) and HDRI skybox (<code>J</code>)</li>
+<li>Added bindings to move the camera to standard locations: <code>1</code>: Front, <code>3</code>: Right, <code>7</code>: Top, <code>9</code>: Isometric</li>
+<li>Added <a href="https://dev.opencascade.org/doc/overview/html/specification__brep_format.html" target="_blank" rel="noopener noreferrer">Open CASCADE BRep format</a> to the OCCT plugin.</li>
+<li>Fixed an infamous issue when the Windows thumbnailer always steal the focus</li>
+<li>Fixed an issue with the binary release when opening draco files</li>
+<li>Fixed an issue with matcap textures</li>
+<li>Fixed an issue with HDRI lighting</li>
+<li>Fixed an issue with HDRI lighting when dropping HDRI after a model</li>
+<li>Fixed an issue where invalid option would not show on Windows</li>
+<li>Fixed an issue where previously loaded file would stay visible</li>
+<li>Fixed an issue when loading invalid EXR file as HDRI</li>
+<li>Fixed cheatsheet menu rendering under &#x27;Drop File Instructor&#x27;</li>
+<li>Fixed raytracing rendering issues</li>
+<li>Improved cheatsheet menu contrast for any background color</li>
+<li>Improved overall text contrast for any background color</li>
+<li>Improved performance when changing model and using a HDRI</li>
+<li>Improved HDRI cache performance</li>
+<li>Deprecated <code>hdri</code> option</li>
+</ul>
+<p>For libf3d users:</p>
+<ul>
+<li>Reworked image API to support many file formats to read (EXR, HDR) and write (PNG, JPG, TIF, BMP)</li>
+<li>Added <code>render.hdri.file</code>, <code>render.hdri.ambient</code>, <code>render.background.skybox</code> options.</li>
+<li>Deprecated <code>render.background.hdri</code> in favor of new options above</li>
+<li>Deprecated previous image API</li>
+<li>Add <code>loader::loadGeometry</code> allowing loading geometry from memory buffers</li>
+</ul>
+<p>For developers:</p>
+<ul>
+<li>Added a deprecation framework</li>
+<li>Removed <code>F3D_TESTING_ENABLE_HDRI_TESTS</code> cmake option and merged it with <code>F3D_TESTING_ENABLE_LONG_TIMEOUT_TESTS</code></li>
+<li>Added a Getting Started guide for beginners developers</li>
+</ul>
+<p>For F3D packagers:</p>
+<ul>
+<li>Fixed compatibility with FreeBSD</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v210">v2.1.0<a href="#v210" class="hash-link" aria-label="Direct link to v2.1.0" title="Direct link to v2.1.0">​</a></h2>
+<p>For F3D users:</p>
+<ul>
+<li>Reworked Animation support and added many animation related options</li>
+<li>Added <code>--camera-direction</code> and <code>--camera-zoom-factor</code> and use it in default config file</li>
+<li>Added <code>--texture-matcap</code> option to load a MatCap texture</li>
+<li>Added support for opening HDRI background with Drop</li>
+<li>Added .exr support for HDRI and textures</li>
+<li>Improved HDRI caching performance</li>
+<li>Added a EGL headless binary release</li>
+<li>Added typo suggestion when failing to use the right option name</li>
+<li>Added <code>--invert-zoom</code> option (libf3d: <code>interactor.invert-zoom</code>) to invert zoom direction with right-click on mouse</li>
+<li>Added support for keeping camera position when reloading a file with <code>UP</code> key</li>
+<li>Added a <code>--grid-absolute</code> option (libf3d: <code>render.grid.absolute</code>) to position the grid instead of being below the model</li>
+<li>Added a &quot;Drop Zone&quot; when starting F3D without loading a file</li>
+<li>Added coloring support for STEP files in binary release</li>
+<li>Fixed an issue on Windows where the error window would popup even with <code>--quiet</code></li>
+<li>Fixed an issue with 16 bit and 32 bit textures with assimp plugin</li>
+<li>Fixed an issue on Windows where errors where not visible</li>
+<li>Fixed an HDRI issue on reload</li>
+<li>Fixed a crash when with the progress bar on reloading a file</li>
+<li>Fixed an issue where certain options from config file would be ignored</li>
+<li>Fixed a crash with many GLTF files when an array does not have a name</li>
+<li>Fixed an issue where dropping a duplicate file would change the loaded file instead of not doing anything</li>
+<li>Fixed an issue when loading an unsupported file</li>
+<li>Fixed an issue with VRML files</li>
+<li>Improved config file for .ply files</li>
+<li>Improved config file regex so that they are case-insensitive</li>
+<li>Improved <code>--up</code> option to support no sign and better validation</li>
+<li>Improved F3D version reporting about itself and VTK (<code>--version</code>)</li>
+<li>Improved documentation, testing, help</li>
+<li>Excluded TIFF format from Windows Thumbnailer</li>
+<li>Changed the automatic camera position to a version more close to the data</li>
+<li>Reduced size of binary release by a factor of two</li>
+</ul>
+<p>For developers:</p>
+<ul>
+<li>Added vcpkg support for dependency installation</li>
+</ul>
+<p>For F3D packagers:</p>
+<ul>
+<li>Added a <code>F3D_PLUGIN_OCCT_COLORING_SUPPORT</code> CMake variable to control if this feature is compiled, default is ON</li>
+<li>Added <code>SONAME</code> support</li>
+<li>Added a <code>F3D_PLUGINS_INSTALL_DIR</code> CMake variable to control where to install plugins</li>
+<li>Added a new module: <code>F3D_MODULE_EXR</code> that depends on openexr</li>
+<li>Added support to use external <code>cxxopts</code> and external <code>nlohmann-json</code></li>
+<li>Fixed a link issue with VTK modules</li>
+<li>Fixed a <code>@loader_path</code> issue on MacOS</li>
+<li>Added support for <code>CMAKE_INSTALL_*DIR</code> variables on installation</li>
+<li>Added support for building against a EGL enabled VTK</li>
+<li>Fixed a compilation issue with VTK master</li>
+</ul>
+<p>Contributors: @DeveloperPaul123 @topazus @bkmgit @snoyer @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v200">v2.0.0<a href="#v200" class="hash-link" aria-label="Direct link to v2.0.0" title="Direct link to v2.0.0">​</a></h2>
+<p>For F3D users:</p>
+<ul>
+<li>Removed <code>--fullscreen</code> options completely</li>
+<li>Added a <code>--position</code> option to set the position of the F3D window</li>
+<li>Added a <code>--light-intensity</code> option and associated bindings</li>
+<li>Improved fish and zsh completion</li>
+<li>Added a new interaction to center the camera on the point under the cursor using <em>middle</em> mouse button</li>
+<li>Added HDRi caching for improved performance</li>
+<li>Added scene bounding box to the dump interaction</li>
+<li>Reworked lighting for fullscene format files</li>
+<li>Improved grid rendering and customization greatly with new options</li>
+<li>Improved HDRi blur performance and customization</li>
+<li>Added support for reading config file directory instead of a single file</li>
+<li>Changed config file location on Windows</li>
+<li>PostFX option names have been changed</li>
+<li>Added an interaction (down arrow) to load all files from the directory containing the current file</li>
+<li>Added a <code>--group-geometries</code> option to load multiple default scene file into a single render window</li>
+</ul>
+<p>For libf3d users:</p>
+<ul>
+<li>Reworked loader API from scratch</li>
+<li>Fixed an issue with engine creation in the Python bindings</li>
+<li>Fixed an issue with image Python bindings</li>
+<li>Improved libf3d examples</li>
+<li>Added experimental javascript bindings based on webassembly/emscriptem</li>
+<li>Added dynamic support for all <code>model</code> options</li>
+<li>Added plugin SDK to create your own plugins for any file format</li>
+</ul>
+<p>For F3D packagers:</p>
+<ul>
+<li>Added plugins support for true optional dependencies</li>
+<li>Added a <code>F3D_APPLICATION_LINK_FILESYSTEM</code> CMake option to control if F3D should link explicitly against libstdc++fs</li>
+<li>Removed most of <code>F3D_INSTALL_</code> options with the switch to a component-based approach</li>
+<li>Removed installation of useless static libs from VTKExtensions (needs VTK master)</li>
+<li>Fixed RPATH of F3D for system using lib64 instead of lib</li>
+<li>Many CMake option name changed</li>
+<li>Fixed data license to use only permissive license for F3D testing data</li>
+<li>Removed packaging support from F3D</li>
+</ul>
+<p>Contributors: @snoyer @mzf-guest @CharlesGueunet @myd7349 @allemangD @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v131">v1.3.1<a href="#v131" class="hash-link" aria-label="Direct link to v1.3.1" title="Direct link to v1.3.1">​</a></h2>
+<ul>
+<li>Fix raytracing support</li>
+<li>Fix macOS window positioning</li>
+</ul>
+<p>Contributors: @mwestphal @Meakk</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v130">v1.3.0<a href="#v130" class="hash-link" aria-label="Direct link to v1.3.0" title="Direct link to v1.3.0">​</a></h2>
+<p>Main new features and fixes:</p>
+<ul>
+<li>Introducing an alpha version of the libf3d, see below for more information</li>
+<li>Added a --font-file option</li>
+<li>Added support for Alembic file format (.abc). Geometry only. Thanks a lot @nyue.</li>
+<li>Fixed many HDRI issues</li>
+<li>Fixed an important drag and drop issue on linux</li>
+</ul>
+<p>Other fixes:</p>
+<ul>
+<li>Fixed many doc and UI typos</li>
+<li>Fixed shell completion</li>
+<li>Fixed multiple issue with image comparison</li>
+<li>Fixed an issue with --line-width and --point-size with full scene formats</li>
+<li>Fixed an issue with translucent object and RGBA texture</li>
+<li>Fixed issues with a few specific .gltf files</li>
+<li>Fixed a window title issue on MacOS</li>
+<li>Fixed multiple issues with the output window on Windows</li>
+<li>Fixed issues with file association and thumbnails on Windows</li>
+<li>Fixed a small issue with the cheatsheet not appearing in some cases</li>
+<li>Fixed an issue with certain .obj files</li>
+<li>Fixed a clipping issue when setting camera position</li>
+<li>Removed fullscreen hotkey</li>
+</ul>
+<p>For F3D developers:</p>
+<ul>
+<li>Updated cxxopts to 3.0.0</li>
+<li>Now using json.hpp for parsing json config file</li>
+<li>Better reproducible build support</li>
+<li>Improved CI with coverage, sanitizer, dedicated actions for dependencies</li>
+<li>Complete rework of the architecture to separate F3D, the application, the libf3d (see below) and a VTKExtensions layer.</li>
+<li>Improved unit testing by adding test in the libf3d and VTKExtensions layer</li>
+</ul>
+<p>For libf3d users:</p>
+<ul>
+<li>Introducing an alpha version of the libf3d!</li>
+<li>The libf3d is a C++ library to open and render 3D meshes, it is of course used by F3D and supports python bindings</li>
+<li>More info available in README_libf3d.md</li>
+</ul>
+<p>Binary Release Information:</p>
+<ul>
+<li>The binary release is <strong>not</strong> built with raytracing support</li>
+<li>This binary release is built with assimp 5.1.2, animation for assimp formats is not working well</li>
+</ul>
+<p>Contributors: @schuhumi @herrriehm @rafcon-dev @mzf-guest @nyue @jpouderoux @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v121">v1.2.1<a href="#v121" class="hash-link" aria-label="Direct link to v1.2.1" title="Direct link to v1.2.1">​</a></h2>
+<p>Bug fixes and features:</p>
+<ul>
+<li>Fixed a build issue on MacOS</li>
+<li>Fixed a critical issue with the Windows Thumbnailer that could crash explorer.exe</li>
+<li>Fixed the --quiet option so that it actually quiets VTK errors and warnings</li>
+<li>Fixed an issue with output window popping up at each log on Windows</li>
+<li>Added a <code>.deb</code> package for Linux Debian-based distros</li>
+</ul>
+<p>For Packagers:</p>
+<ul>
+<li>LFS file have been added in source code release, this seems to be retroactive, so hash of previous releases may have changed</li>
+<li>Flatpack org name has been fixed</li>
+</ul>
+<p>Contributors: @Meakk @mwestphal @jpouderoux</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v120">v1.2.0<a href="#v120" class="hash-link" aria-label="Direct link to v1.2.0" title="Direct link to v1.2.0">​</a></h2>
+<p>Main New Features:</p>
+<ul>
+<li>Added STEP and IGES file format support thanks to @Open-Cascade-SAS /<a href="https://github.com/Open-Cascade-SAS/OCCT" target="_blank" rel="noopener noreferrer">OCCT</a> (thanks @drtrigon)</li>
+<li>Added FBX, DAE, OFF, and DXF file format support thanks to @assimp /<a href="https://github.com/assimp/assimp" target="_blank" rel="noopener noreferrer">assimp</a></li>
+<li>Added thumbnail support with many linux file managers</li>
+<li>Added thumbnail support on Windows</li>
+<li>Added desktop environment integration in linux</li>
+<li>Added scalar and scalar component looping</li>
+</ul>
+<p>Other New Features:</p>
+<ul>
+<li>Added support for KHR_materials_unlit with glTF files (thanks @spiraloid)</li>
+<li>Added option for selecting camera <code>--camera-index</code> (thanks @spiraloid)</li>
+<li>Added coloring the to Windows error output window</li>
+<li>Added a man entry on Linux</li>
+<li>Added a <code>--config</code> option to select a config file to load instead of using default location</li>
+<li>Added a <code>--quiet</code> option</li>
+<li>Added <code>--camera-azimuth</code> and <code>--camera-elevation</code> options (thanks @tatsuya-s)</li>
+<li>Added a metainfo.xml file (thanks @kevinsmia1939)</li>
+</ul>
+<p>Issue Fixes:</p>
+<ul>
+<li>Fixed an issue with opening files with accented char in the name on Windows (thanks @shankarsivarajan)</li>
+<li>Fixed HDRI orientation with --up option (thanks @truhlikfredy)</li>
+<li>Fixed an issue with point cloud rendering</li>
+<li>Fixed a crash on exit on Windows</li>
+<li>Fixed an issue with fullscreen window size on Windows</li>
+<li>Fixed offscreen rendering (<code>--output</code> and <code>--ref</code> ) to actually use offscreen rendering</li>
+<li>Fixed a memory leak when no rendering is performed (thanks @CharlesGueunet)</li>
+<li>Fixed a rendering issue with certain GPU drivers</li>
+<li>Fixed tone mapping with background opacity</li>
+<li>Fixed non-working drag and drop implementation in VTK (thanks @msbit)</li>
+<li>Fixed a potential sorting issue when opening a folder</li>
+<li>Fixed a crash with unsupported glTF files in VTK</li>
+</ul>
+<p>For Developers:</p>
+<ul>
+<li>Full rework of the CI framework, including coverage report support</li>
+<li>Full rework of the testing framework</li>
+<li>Separation of vtkF3DRenderer in two classes</li>
+<li>Separation of f3d executable into a libf3d library and f3d executable to support windows thumbnails</li>
+</ul>
+<p>For Packagers:</p>
+<ul>
+<li>New CMake options to select file to install, all documented and starting with F3D_</li>
+<li>mime types file can be installed, make sure to trigger update-mime-databse</li>
+<li>desktop file can be installed, make sure to trigger update-desktop-database</li>
+</ul>
+<p>Packagers: AndnoVember @jokersus @kevinsmia1939 @yurivict @bcdarwin @mzf-guest @Meakk @mwestphal</p>
+<p>Binary Release Information:</p>
+<ul>
+<li>The binary release is <strong>not</strong> built with raytracing support</li>
+<li>This binary release is built with assimp 5.1.2, animation for assimp formats is not working well</li>
+</ul>
+<p>Contributors: @CharlesGueunet @kevinsmia1939 @mzf-guest @jpouderoux @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v111">v1.1.1<a href="#v111" class="hash-link" aria-label="Direct link to v1.1.1" title="Direct link to v1.1.1">​</a></h2>
+<p>A patch release dedicated to package managers that makes F3D v1.1 compatible with vtk v9.1.0</p>
+<ul>
+<li>Fix a render pass build issue with vtk 9.1.0</li>
+<li>Fix a renderer build issue with vtk 9.1.0</li>
+</ul>
+<p>Contributors: @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v110">v1.1.0<a href="#v110" class="hash-link" aria-label="Direct link to v1.1.0" title="Direct link to v1.1.0">​</a></h2>
+<p>New Important Features:</p>
+<ul>
+<li><strong>Added direct scalars color rendering mode</strong>, see doc.</li>
+<li><strong>Added a turntable interactor</strong> and made it default. The previous interactor can still be used using a dedicated option. Thanks @orangebowlerhat @filip.sund and @jjomier for your suggestions.</li>
+<li><strong>Added animation support</strong> for glTF and Exodus files. Press space for playing the animation.</li>
+<li>Added animation related option, --animation-index, only for glTF when using the full scene.</li>
+</ul>
+<p>New Readers and format compatibility features:</p>
+<ul>
+<li>Added skinning and morphing support with glTF files.</li>
+<li>Added TIFF format support. Thanks @proudot for your suggestion.</li>
+<li>Added exodus format support. Thanks @gvernon for your suggestion.</li>
+<li>Added support for OBJ with color directly inside of it instead of using a .mtl file. Thanks @Chenge321 for your suggestion.</li>
+</ul>
+<p>Quality of life features:</p>
+<ul>
+<li>Added a hotkey (UP) to reload current file, thanks @caioaao.</li>
+<li>Improved Alpha blending performance, thanks @paul.lafoix.</li>
+<li>Changed the progress bar to a more nice looking one and made it appears only if loading takes time. Thanks @finetjul for the suggestion.</li>
+<li>Improved logging mechanism with color on all OS and a dedicated output window on windows.</li>
+<li>Added a warning when using RayTracing but it is not available.</li>
+</ul>
+<p>Fixes:</p>
+<ul>
+<li>Fixed an issue with skybox and edges.</li>
+<li>Fixed a crash when an array had no name.</li>
+<li>Fixed a window naming issue on OSX.</li>
+<li>Fixed a symlink issue.</li>
+<li>Fixed a coloring issue with dataset containing only cell data.</li>
+</ul>
+<p>Packaging:</p>
+<ul>
+<li>Upgraded the AUR f3d package to 1.1.0 : <a href="https://aur.archlinux.org/packages/f3d" target="_blank" rel="noopener noreferrer">https://aur.archlinux.org/packages/f3d</a>.</li>
+<li>Added a Brew f3d 1.1.0 package : <a href="https://formulae.brew.sh/formula/f3d" target="_blank" rel="noopener noreferrer">https://formulae.brew.sh/formula/f3d</a>.</li>
+<li>FreeBSD now contains a f3d 1.1.0 package, thanks to <a href="mailto:yuri@freebsd.org" target="_blank" rel="noopener noreferrer">yuri@freebsd.org</a>.</li>
+<li>NixOS now contains a f3d package, 1.1.0 should come soon, thanks to <a href="mailto:bcdarwin@gmail.com" target="_blank" rel="noopener noreferrer">bcdarwin@gmail.com</a>.</li>
+</ul>
+<p>How to support F3D:</p>
+<ul>
+<li>Use the software.</li>
+<li>Share it with anyone interested.</li>
+<li>Star us on github: <a href="https://github.com/kitware/F3D" target="_blank" rel="noopener noreferrer">https://github.com/kitware/F3D</a>.</li>
+</ul>
+<p>Note: Binaries have no raytracing support.</p>
+<p>Contributors: @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v101">v1.0.1<a href="#v101" class="hash-link" aria-label="Direct link to v1.0.1" title="Direct link to v1.0.1">​</a></h2>
+<ul>
+<li>VisualStudio Runtime is now included into the windows release</li>
+<li>Ensure VTK compatibility</li>
+<li>Improve STL binary reader performances</li>
+<li>Fix default configuration issues</li>
+<li>Add support for Window icon on all OSes</li>
+</ul>
+<p>Note: Binaries have no raytracing support.</p>
+<p>Contributors: @Meakk @mwestphal</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v100">v1.0.0<a href="#v100" class="hash-link" aria-label="Direct link to v1.0.0" title="Direct link to v1.0.0">​</a></h2>
+<ul>
+<li>Documentation<!-- -->
+<ul>
+<li>Online documentation based on Hexo (<a href="https://kitware.github.io/F3D/" target="_blank" rel="noopener noreferrer">https://kitware.github.io/F3D/</a>)</li>
+</ul>
+</li>
+<li>Rendering<!-- -->
+<ul>
+<li>Add volume rendering for 3D images</li>
+<li>HDRI support (skyboxes, HDR files, Filmic tone mapping)</li>
+<li>Point sprites for displaying point clouds</li>
+<li>Color map customization (default one changed to “inferno”)</li>
+</ul>
+</li>
+<li>Interface<!-- -->
+<ul>
+<li>Drag&amp;Drop files support</li>
+<li>Supports opening of several files (or folder), use left/right arrow to navigate</li>
+<li>Scalars field handling improvements</li>
+<li>Cheat Sheet</li>
+<li>Interactive hotkeys have been reworked</li>
+<li>File association on Windows and OSX</li>
+<li>Fullscreen mode</li>
+<li>No background mode (useful when saving image to a PNG file with alpha channel)</li>
+</ul>
+</li>
+<li>Command line<!-- -->
+<ul>
+<li>Camera configuration</li>
+<li>Metadata (field data) display</li>
+<li>File name display</li>
+<li>No render mode (useful to read information in the file)</li>
+<li>Shell completion (supports bash, zsh, fish)</li>
+</ul>
+</li>
+<li>New readers<!-- -->
+<ul>
+<li>CityGML</li>
+<li>PTS</li>
+</ul>
+</li>
+<li>Packages<!-- -->
+<ul>
+<li>Default config provide</li>
+</ul>
+</li>
+</ul>
+<p>Note: Binaries have no raytracing support.</p>
+<p>Contributors: @Meakk @mwestphal @hlngrandmontagne Paul Lafoix</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v011">v0.1.1<a href="#v011" class="hash-link" aria-label="Direct link to v0.1.1" title="Direct link to v0.1.1">​</a></h2>
+<ul>
+<li>Fixes <code>--version</code> and <code>--help</code> crash</li>
+</ul>
+<p>Contributors: @Meakk @mwestphal @jpouderoux</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v010">v0.1.0<a href="#v010" class="hash-link" aria-label="Direct link to v0.1.0" title="Direct link to v0.1.0">​</a></h2>
+<p>First release!</p>
+<p>Contributors: @Meakk @mwestphal @jpouderoux</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/f3d-app/f3d/tree/main/www/docs/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/dev/TESTING"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Testing</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/THIRD_PARTY_LICENSES"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Third Party Copyrights and License within F3D application source</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#ongoing-development" class="table-of-contents__link toc-highlight">Ongoing development</a></li><li><a href="#v230" class="table-of-contents__link toc-highlight">v2.3.0</a></li><li><a href="#v221" class="table-of-contents__link toc-highlight">v2.2.1</a></li><li><a href="#v210" class="table-of-contents__link toc-highlight">v2.1.0</a></li><li><a href="#v200" class="table-of-contents__link toc-highlight">v2.0.0</a></li><li><a href="#v131" class="table-of-contents__link toc-highlight">v1.3.1</a></li><li><a href="#v130" class="table-of-contents__link toc-highlight">v1.3.0</a></li><li><a href="#v121" class="table-of-contents__link toc-highlight">v1.2.1</a></li><li><a href="#v120" class="table-of-contents__link toc-highlight">v1.2.0</a></li><li><a href="#v111" class="table-of-contents__link toc-highlight">v1.1.1</a></li><li><a href="#v110" class="table-of-contents__link toc-highlight">v1.1.0</a></li><li><a href="#v101" class="table-of-contents__link toc-highlight">v1.0.1</a></li><li><a href="#v100" class="table-of-contents__link toc-highlight">v1.0.0</a></li><li><a href="#v011" class="table-of-contents__link toc-highlight">v0.1.1</a></li><li><a href="#v010" class="table-of-contents__link toc-highlight">v0.1.0</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/docs/changelog">Changelog</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.f3d.app" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/f3d-app/f3d" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 F3D, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
