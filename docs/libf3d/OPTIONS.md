@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Options exhaustive list
 
 An option is a string used as a key associated with a value, which are stored in an `options` instance.

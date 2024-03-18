@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # libf3d - A library to render 3D meshes
 
 By Michael Migliore and Mathieu Westphal.

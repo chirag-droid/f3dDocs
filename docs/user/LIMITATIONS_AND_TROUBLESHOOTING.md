@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Limitations
 
 Here is a non exhaustive list of F3D limitations:

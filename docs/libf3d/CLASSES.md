@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Classes Introduction
 
 This is only an introduction to libf3d classes.

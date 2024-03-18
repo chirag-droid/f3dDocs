@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Plugin SDK
 
 When calling `find_package(f3d)` in CMake, a few macros are made available to you to generate a plugin which allow you to extend libf3d to support your own file format.

@@ -59,9 +59,19 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docs',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          to: 'changelog',
+          label: 'Changelog',
+          position: 'left',
+        },
+        {
+          to: 'licences',
+          label: 'Licences',
+          position: 'left',
         },
         {
           href: 'https://github.com/f3d-app/f3d',

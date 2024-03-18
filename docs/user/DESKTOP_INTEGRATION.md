@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Desktop Integration
 
 F3D can be integrated in the desktop experience.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Coding Style
 
 F3D use different coding styles in each component, however there are some common rules

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Testing
 
 F3D has an expansive suite of tests, you may want to run them locally,

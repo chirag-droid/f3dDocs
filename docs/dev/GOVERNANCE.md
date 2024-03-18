@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Governance Policy
 
 This document provides the governance policy for F3D (the "Project"). [Every person](./MAINTAINERS.md) responsible for its maintenance (the "Maintainers") agrees to this policy and to abide by all Project policies, including the [code of conduct](../../CODE-OF-CONDUCT.md) by adding their name to the [MAINTAINERS.md file](./MAINTAINERS.md).

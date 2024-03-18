@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Configuration File
 
 Almost all the command-line options can be controlled using configuration files.

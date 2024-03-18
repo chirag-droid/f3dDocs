@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Usage
 
 Once F3D has been [installed](INSTALLATION.md), you should be able to open any [supported file](#supported-file-formats),

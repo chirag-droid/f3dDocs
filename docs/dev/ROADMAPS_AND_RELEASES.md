@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Roadmaps and release cycles
 
 F3D is a community driven project and we try to provide as much information as we can about the upcoming features

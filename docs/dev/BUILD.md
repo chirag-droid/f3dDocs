@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Build guide
 
 F3D uses a CMake based build system, so building F3D just requires installing

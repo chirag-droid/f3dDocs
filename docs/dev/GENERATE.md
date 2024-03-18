@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # How to generate the full coverage report
 
 Requires `gcovr` program and `gcc` toolchain.

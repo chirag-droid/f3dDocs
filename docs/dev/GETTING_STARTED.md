@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Getting started guide
 
 This is a getting started guide, aimed to people that are not used

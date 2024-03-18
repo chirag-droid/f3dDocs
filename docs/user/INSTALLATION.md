@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Installation
 
 ## Current release packages (2.3.0)

@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+name: Options
+---
+
 # Command line options
 
 F3D behavior can be fully controlled from the command line using the following options.
