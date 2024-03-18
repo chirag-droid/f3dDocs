@@ -74,6 +74,12 @@ const config: Config = {
           position: 'left',
         },
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+          dropdownActiveClassDisabled: true,
+        },
+        {
           href: 'https://github.com/f3d-app/f3d',
           label: 'GitHub',
           position: 'right',
